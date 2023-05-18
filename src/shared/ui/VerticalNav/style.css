@@ -1,0 +1,17 @@
+.wrap {
+    position: absolute;
+    top: 0;
+    background-color: rgb(41, 45, 69);
+    width: 60px;
+    height: 100vh;
+    transition: width 200ms ease-in;
+}
+
+.wrap:hover {
+    width: 300px;
+    transition: width 200ms ease-in;
+}
+
+li{
+    color: red;
+}

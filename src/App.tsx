@@ -1,3 +1,11 @@
+import { Root } from './Style';
+import { UserAvatar } from './shared/ui/UserAvatar';
+import React from 'react';
+
 export const App = () => {
-	return <div>Hello</div>;
+	return (
+		<Root>
+			<UserAvatar username="egormarkov1408@gmail.com" />
+		</Root>
+	);
 };
