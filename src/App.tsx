@@ -1,11 +1,58 @@
 import { Root } from './Style';
-import { UserAvatar } from './shared/ui/UserAvatar';
-import React from 'react';
+import { AppBar } from './shared/ui/AppBar';
 
 export const App = () => {
 	return (
 		<Root>
-			<UserAvatar username="egormarkov1408@gmail.com" />
+			<AppBar />
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
+			<span>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo
+				magnam numquam quaerat similique vel, vero. Expedita itaque odit quae
+				qui! Cum excepturi explicabo illum praesentium sint. Accusantium,
+				exercitationem, mollitia.
+			</span>
 		</Root>
 	);
 };
