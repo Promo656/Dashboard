@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import IconButton from '@mui/material/IconButton';
+import { device } from '../../lib/mediaQuery';
 
 export const Root = styled(IconButton)`
 	display: inline-block;
@@ -21,6 +22,9 @@ export const Root = styled(IconButton)`
 	.username {
 		font-size: 12px;
 		font-weight: bold;
+		@media ${device.mobileS} {
+			display: none;
+		}
 	}
 
 	.avatar,
